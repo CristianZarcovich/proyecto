@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Judson:ital,wght@0,400;0,700;1,400&family=Quando&display=swap');
+
+/* -------------- header -------------- */
+
+
+#body {
+    background-image: url(../img/grey.png);
+}
+
+.bg-nav {
+    background-image: url(../img/grains-background.png);
+}
+
+.bg-foot {
+    background-image: url(../img/grains-background-footer.png);
+}
+
+.text-brown {
+    color: #5A2E2E;
+}
+
+.text-beige {
+    color: #DFBA69;
+}
+
+.text-grey {
+    color: #3E4147;
+}
+
+.btn-grey {
+    background-color: #3E4147;
+}
+
+.borde-brown {
+    border: 3px solid #5A2E2E;
+}
+
+.bg-beige {
+    background-color: #DFBA69;
+}
+
+.bg-menu {
+    background-color: rgba(223,186,105,.5);
+}
+
+.borde__intro {
+    border-radius: 0px 0px 0px 0px;
+    -moz-border-radius: 0px 0px 0px 0px;
+    -webkit-border-radius: 0px 0px 0px 0px;
+    border: 2px dashed #DFBA69;
+    object-fit: cover;
+}
+
+.borde__titles {
+    border: 2px dotted #5A2E2E;
+}
+
+.font-quando {
+    font-family: 'Quando', serif;
+    font-weight: 400;
+}
+
+.font-judson {
+    font-family: 'Judson', serif;
+}
+
+.borde-bottom {
+    border-bottom-width: 1px !important;
+} 
+
+@media only screen and (max-width: 360px) {
+    #text-small {
+        font-size: 1em !important;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #w-100 {
+        width: 100% !important;
+    }
+}
