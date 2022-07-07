@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Judson:ital,wght@0,400;0,700;1,400&family=Quando&display=swap');
 
 /* -------------- header -------------- */
-
+*{
+    margin: 0;
+    padding: 0;
+}
 
 #body {
     background-image: url(../img/grey.png);
@@ -25,6 +28,10 @@
 
 .text-grey {
     color: #3E4147;
+}
+
+.text-border {
+    text-shadow: 0 0 2px black;
 }
 
 .btn-grey {
