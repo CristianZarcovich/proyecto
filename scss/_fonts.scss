@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Judson:ital,wght@0,400;0,700;1,400&family=Quando&display=swap');
+
+//  fonts
+$mainFont: 'Judson', serif;
+$secondFont: 'Quando', serif;
+
+// clases
+
+.font-quando {
+  font-family: $secondFont;
+  font-weight: 400;
+}
+
+.font-judson {
+  font-family: $mainFont;
+}
+
+.text-beige {
+  color: $mainColor;
+}
+
+.text-brown {
+  color: $secondColor;
+}
+
+.text-grey {
+  color: $keyColor;
+}
+
+.text-border {
+  text-shadow: 0 0 2px black;
+}
+
+//responsive
+
+@media only screen and (max-width: 360px) {
+  #text-small {
+      font-size: 1em !important;
+  }
+}

@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.btn-grey {
+  background-color: $keyColor;
+    &hover {
+      color: $secondColor !important;
+  }
+}
+
+// backgrounds
+
+#body {
+  background-image: url(../img/grey.png);
+}
+
+.bg-nav {
+  background-image: url(../img/grains-background.png);
+}
+
+.bg-foot {
+  background-image: url(../img/grains-background-footer.png);
+}
+
+.bg-beige {
+  background-color: $mainColor;
+}
+
+.bg-menu {
+  background-color: $opColor;
+}
+
+// borders
+
+.borde-brown {
+  border: 3px solid $secondColor;
+}
+
+.borde__intro {
+  border-radius: 0px 0px 0px 0px;
+  -moz-border-radius: 0px 0px 0px 0px;
+  -webkit-border-radius: 0px 0px 0px 0px;
+  border: 2px dashed $mainColor;
+  object-fit: cover;
+}
+
+.borde__titles {
+  border: 2px dotted $secondColor;
+}
+
+
+//redes footer
+
+.redes {
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+  margin-top: 1rem;
+    a {
+      color: $mainColor;
+      img {
+        color: $mainColor;
+        &:hover {
+        transform: scale(1.2);
+      }
+    }
+  }
+}
+
+// responsive
+
+@media only screen and (min-width: 768px) {
+  #w-100 {
+      width: 100% !important;
+  }
+}
+

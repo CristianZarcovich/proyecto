@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Judson:ital,wght@0,400;0,700;1,400&family=Quando&display=swap");
+.font-quando {
+  font-family: "Quando", serif;
+  font-weight: 400; }
+
+.font-judson {
+  font-family: "Judson", serif; }
+
+.text-beige {
+  color: #DFBA69; }
+
+.text-brown {
+  color: #5A2E2E; }
+
+.text-grey {
+  color: #3E4147; }
+
+.text-border {
+  text-shadow: 0 0 2px black; }
+
+@media only screen and (max-width: 360px) {
+  #text-small {
+    font-size: 1em !important; } }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+.btn-grey {
+  background-color: #3E4147; }
+  .btn-greyhover {
+    color: #5A2E2E !important; }
+
+#body {
+  background-image: url(../img/grey.png); }
+
+.bg-nav {
+  background-image: url(../img/grains-background.png); }
+
+.bg-foot {
+  background-image: url(../img/grains-background-footer.png); }
+
+.bg-beige {
+  background-color: #DFBA69; }
+
+.bg-menu {
+  background-color: rgba(223, 186, 105, 0.5); }
+
+.borde-brown {
+  border: 3px solid #5A2E2E; }
+
+.borde__intro {
+  border-radius: 0px 0px 0px 0px;
+  -moz-border-radius: 0px 0px 0px 0px;
+  -webkit-border-radius: 0px 0px 0px 0px;
+  border: 2px dashed #DFBA69;
+  object-fit: cover; }
+
+.borde__titles {
+  border: 2px dotted #5A2E2E; }
+
+.redes {
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+  margin-top: 1rem; }
+  .redes a {
+    color: #DFBA69; }
+    .redes a img {
+      color: #DFBA69; }
+      .redes a img:hover {
+        transform: scale(1.2); }
+
+@media only screen and (min-width: 768px) {
+  #w-100 {
+    width: 100% !important; } }
