@@ -1,7 +1,7 @@
 {
   "name": "proyecto-bootstrap",
   "version": "1.0.0",
-  "description": "",
+  "description": "Sitio web de la cafetería Esencia. Cuenta con tienda, menú de bebidas y pastelería, una sección con información sobre el establecimiento y sucursales, y también una página con un formulario de contacto.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

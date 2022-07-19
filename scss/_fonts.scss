@@ -1,10 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Judson:ital,wght@0,400;0,700;1,400&family=Quando&display=swap');
 
 //  fonts
+
 $mainFont: 'Judson', serif;
 $secondFont: 'Quando', serif;
 
 // clases
+
+.text-intro {
+  font-family: $mainFont;
+  color: $mainColor;
+}
+
+.text-us {
+  @extend .text-intro;
+  font-size: 1.5em;
+}
 
 .font-quando {
   font-family: $secondFont;
@@ -16,15 +27,15 @@ $secondFont: 'Quando', serif;
 }
 
 .text-beige {
-  color: $mainColor;
+  color: map-get($map: $paleta, $key: "uno");
 }
 
 .text-brown {
-  color: $secondColor;
+  color: map-get($map: $paleta, $key: "dos");
 }
 
 .text-grey {
-  color: $keyColor;
+  color: map-get($map: $paleta, $key: "tres");
 }
 
 .text-border {

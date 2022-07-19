@@ -1,4 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Judson:ital,wght@0,400;0,700;1,400&family=Quando&display=swap");
+.text-intro, .text-us {
+  font-family: "Judson", serif;
+  color: #DFBA69; }
+
+.text-us {
+  font-size: 1.5em; }
+
 .font-quando {
   font-family: "Quando", serif;
   font-weight: 400; }
@@ -32,7 +39,7 @@
     color: #5A2E2E !important; }
 
 #body {
-  background-image: url(../img/grey.png); }
+  background-image: url(../img/grey.webp); }
 
 .bg-nav {
   background-image: url(../img/grains-background.png); }
@@ -50,17 +57,17 @@
   border: 3px solid #5A2E2E; }
 
 .borde__intro {
-  border-radius: 0px 0px 0px 0px;
-  -moz-border-radius: 0px 0px 0px 0px;
-  -webkit-border-radius: 0px 0px 0px 0px;
-  border: 2px dashed #DFBA69;
-  object-fit: cover; }
+  border: 2px dashed #DFBA69; }
 
 .borde__titles {
   border: 2px dotted #5A2E2E; }
 
+.borde-grey {
+  border: 1px solid #2A2C31; }
+
 .redes {
   display: flex;
+  flex-direction: row;
   justify-content: space-evenly;
   width: 80%;
   margin-top: 1rem; }
