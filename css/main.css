@@ -51,7 +51,8 @@
   background-color: #DFBA69; }
 
 .bg-menu {
-  background-color: rgba(223, 186, 105, 0.5); }
+  background-color: rgba(223, 186, 105, 0.5);
+  height: 60vh; }
 
 .borde-brown {
   border: 3px solid #5A2E2E; }
